@@ -1,0 +1,10 @@
+[theme]
+# Definizione del tema chiaro con blu scuro
+base = "light"
+
+primaryColor = "#003366"  # Blu scuro per il colore primario (per pulsanti, link, ecc.)
+backgroundColor = "#F4F6F9"  # Grigio chiaro per lo sfondo (meno luminoso del bianco)
+secondaryBackgroundColor = "#B0C4DE"  # Blu acciaio per la sezione secondaria (per esempio, il riquadro del chatbot)
+textColor = "#1A1A1A"  # Testo scuro per migliorare la leggibilità
+font = "sans serif"  # Font sans-serif per una lettura facile
+
