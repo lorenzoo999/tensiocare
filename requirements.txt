@@ -1,0 +1,9 @@
+langchain==0.3.7
+langchain_community
+pynvml==11.5.3
+pypdf==5.1.0
+python-dotenv==1.0.1
+torch==2.5.1
+translate==3.6.1
+sentence_transformers
+faiss-cpu
