@@ -14,7 +14,7 @@ load_dotenv()
   # main_placeholder.text(message)
   
 
-st.set_page_config(page_title="TensioCare", page_icon="assets/favicon.ico")
+st.set_page_config(page_title="TensioCare", page_icon="assets/icona.ico")
 
 
 token=os.getenv("API_KEY")
@@ -95,7 +95,7 @@ def display_chatbot_page():
         # Append user question to history
         st.session_state.history.append({"role": "user", "content": question})
         # Add user question
-        with st.chat_message(name = "user", avatar = "assets/user.jpg"):
+        with st.chat_message(name = "user", avatar = "assets/user.png"):
             st.markdown(question)
 
         # Answer the question
