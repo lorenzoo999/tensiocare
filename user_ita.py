@@ -58,7 +58,7 @@ def display_chatbot_page():
           
 
     existing_vector_store = "TensioCare_VS"
-    temperature = 1.0
+    temperature = 0.3
     max_length = 300
 
     # Prepare the LLM model
